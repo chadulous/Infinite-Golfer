@@ -29,7 +29,7 @@ function FitFromAspect(srcWidth, srcHeight, maxWidth, maxHeight) {
 let viewportHeight = window.innerHeight;
 let viewportWidth = window.innerWidth;
 
-const stage = new Stage({ costumeNumber: 1, ...FitFromAspect(480, 360, viewportHeight, viweportWidth) });
+const stage = new Stage({ costumeNumber: 1, ...FitFromAspect(480, 360, viewportHeight, viewportWidth) });
 
 const sprites = {
   Golfball: new Golfball({
