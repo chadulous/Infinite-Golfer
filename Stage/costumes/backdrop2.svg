@@ -1,1 +1,26 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="478.69053" height="361.25421" viewBox="0,0,478.69053,361.25421"><g transform="translate(-0.65473,0.62711)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#3da563" fill-rule="nonzero" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M1.65473,359.6271v-359.25421h476.69053v359.25421z"/></g></g></svg>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="480"
+	height="360"
+	viewBox="0,0,478.69053,361.25421"
+>
+	<g transform="translate(-0.65473,0.62711)">
+		<g
+			data-paper-data='{"isPaintingLayer":true}'
+			fill="#3da563"
+			fill-rule="nonzero"
+			stroke="#000000"
+			stroke-width="2"
+			stroke-linecap="butt"
+			stroke-linejoin="miter"
+			stroke-miterlimit="10"
+			stroke-dasharray=""
+			stroke-dashoffset="0"
+			style="mix-blend-mode: normal"
+		>
+			<path d="M1.65473,359.6271v-359.25421h476.69053v359.25421z" />
+		</g>
+	</g>
+</svg>
