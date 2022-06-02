@@ -9,7 +9,6 @@
   </head>
   <body>
     <div id="Test"></div>
-    <button id="greenFlag">Green Flag</button>
     <div id="project"></div>
 
     <script type="module">
@@ -17,11 +16,6 @@
 
       project.attach("#project");
 
-      document.querySelector("#greenFlag").addEventListener("click", () => {
-        project.greenFlag();
-      });
-
-      // Autoplay
       project.greenFlag();
     </script>
   </body>
