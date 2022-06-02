@@ -13,15 +13,15 @@ const stage = new Stage({ costumeNumber: 1 });
 
 const sprites = {
   Golfball: new Golfball({
-    x: -231,
-    y: -35,
-    direction: 120.34974362278865,
+    x: 0,
+    y: 0,
+    direction: 0,
     costumeNumber: 1,
-    size: 14.999999999999988,
-    visible: false
+    size: 100,
+    visible: true
   }),
   Hole: new Hole({
-    x: -231,
+    x: -50,
     y: -35,
     direction: 90,
     costumeNumber: 1,
@@ -29,9 +29,9 @@ const sprites = {
     visible: true
   }),
   Putter: new Putter({
-    x: 125,
-    y: 1,
-    direction: -95.77432590266329,
+    x: 0,
+    y: 0,
+    direction: 0,
     costumeNumber: 1,
     size: 15,
     visible: true
@@ -63,7 +63,7 @@ const sprites = {
   MobileCursor: new MobileCursor({
     x: 125,
     y: 1,
-    direction: -69.72065471966835,
+    direction: 0,
     costumeNumber: 1,
     size: 100,
     visible: true
