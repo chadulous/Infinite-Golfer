@@ -9,7 +9,27 @@ import Toggle from "./Toggle/Toggle.js";
 import Mobilehitbutton from "./Mobilehitbutton/Mobilehitbutton.js";
 import MobileCursor from "./MobileCursor/MobileCursor.js";
 
-const stage = new Stage({ costumeNumber: 1 });
+ /**
+  * Conserve aspect ratio of the original region. Useful when shrinking/enlarging
+  * images to fit into a certain area.
+  *
+  * @param {Number} srcWidth width of source image
+  * @param {Number} srcHeight height of source image
+  * @param {Number} maxWidth maximum available width
+  * @param {Number} maxHeight maximum available height
+  * @return {Object} { width, height }
+  */
+function FitFromAspect(srcWidth, srcHeight, maxWidth, maxHeight) {
+
+    var ratio = Math.min(maxWidth / srcWidth, maxHeight / srcHeight);
+
+    return { width: srcWidth*ratio, height: srcHeight*ratio };
+ }
+
+let viewportHeight = window.innerHeight;
+let viewportWidth = window.innerWidth;
+
+const stage = new Stage({ costumeNumber: 1, ...FitFromAspect(480, 360, viewportHeight, viweportWidth) });
 
 const sprites = {
   Golfball: new Golfball({
